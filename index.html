@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ngô Đức Duy - Giới Thiệu Bản Thân</title>
+    <link rel="stylesheet" href="css.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Montserrat:wght@400;500;600;700&display=swap" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <a href="#"
+            >Ngô Đức Duy <br /><strong
+              style="
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+              "
+              >DUYDUMSTOR
+            </strong>
+          </a>
+        </div>
+        <nav class="nav">
+          <ul>
+            <li><a href="#home">Trang Chủ</a></li>
+            <li><a href="#Gthieu">Giới Thiệu</a></li>
+            <li><a href="#Sothich">Sở Thích</a></li>
+            <li><a href="#Kynang">Kỹ Năng</a></li>
+            <li><a href="#Muctieu">Mục Tiêu</a></li>
+            <li><a href="#Lienhe">Liên Hệ</a></li>
+          </ul>
+        </nav>
+        <div class="tabmenumobi">
+          <ul class="submenu">
+            <li>
+              <span onclick="upen()">=</span>
+              <div class="mobian" id="mobian">
+                <div class="close">
+                  <img onclick="closeden()" src="img/closeden.png" alt="" />
+                </div>
+                <ul class="menumobi">
+                  <li><a href="#home">Trang Chủ</a></li>
+                  <li><a href="#Gthieu">Giới Thiệu</a></li>
+                  <li><a href="#Sothich">Sở Thích</a></li>
+                  <li><a href="#Kynang">Kỹ Năng</a></li>
+                  <li><a href="#Muctieu">Mục Tiêu</a></li>
+                  <li><a href="#Lienhe">Liên Hệ</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Trang chủ Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Ngô Đức Duy</h1>
+          <p>
+            Sinh viên ngành Công nghệ Thông tin tại FPT Polytechnic, đam mê lập
+            trình và phát triển website.
+          </p>
+          <div class="buttons">
+            <a href="#Gthieu" class="btn primary">Tìm Hiểu Thêm</a>
+            <a href="#Lienhe" class="btn secondary"
+              ><span>Liên Hệ</span>
+              <span class="right">✨ Duy ❤️ CNTT ✨</span></a
+            >
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="image-container">
+            <div class="anhmy"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Giới thiệu  Section -->
+    <section id="Gthieu" class="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="tag">Thông Tin Cá Nhân</span>
+          <h2>Giới Thiệu Về Tôi</h2>
+          <p>
+            Sinh viên đam mê công nghệ, không ngừng học hỏi để phát triển bản
+            thân.
+          </p>
+        </div>
+        <div class="about-content">
+          <div class="about-image">
+            <img
+              src="https://images.unsplash.com/photo-1537432376769-00f5c2f4c8d2?ixlib=rb-4.0.3&auto=format&fit=crop&w=750&q=80"
+              alt="Hình ảnh về tôi" />
+          </div>
+          <div class="about-text">
+            <h3>Xin chào, tôi là Ngô Đức Duy</h3>
+            <p>
+              Hiện tại tôi đang là sinh viên chuyên ngành Công nghệ Thông Tin
+              tại FPT Polytechnic. Tôi có niềm đam mê lớn với lập trình, đặc
+              biệt là phát triển website, và tôi đang từng bước hoàn thiện kỹ
+              năng của mình để trở thành một lập trình viên giỏi trong tương
+              lai.
+            </p>
+
+            <ul class="feature-list">
+              <li><strong>Họ và tên:</strong> Ngô Đức Duy</li>
+              <li><strong>Tuổi:</strong> 18</li>
+              <li><strong>Quê quán:</strong> Thái Bình, Việt Nam</li>
+              <li><strong>Trường học:</strong> FPT Polytechnic</li>
+              <li><strong>Ngành học:</strong> Công nghệ Thông Tin</li>
+              <li><strong>Chiều cao:</strong> 1m75</li>
+              <li><strong>Gia đình:</strong> Bố mẹ và một em gái 12 tuổi</li>
+              <li>
+                <strong>Gia đình:</strong>Gia đình thứ hai trong tôi là Người
+                tôi yêu Bùi Thị Thúy Vân
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sở thích  Section -->
+    <section id="Sothich" class="interests">
+      <div class="container">
+        <div class="section-header">
+          <span class="tag">Sở Thích & Thói Quen</span>
+          <h2>Những Điều Tôi Yêu Thích</h2>
+          <p>
+            Các hoạt động giúp tôi cân bằng cuộc sống và phát triển bản thân.
+          </p>
+        </div>
+        <div class="service-grid">
+          <div class="service-card">
+            <div class="icon running-icon"></div>
+            <h3>Chạy Bộ</h3>
+            <p>Chạy bộ vào buổi sáng để nâng cao sức khỏe và tinh thần.</p>
+          </div>
+          <div class="service-card">
+            <div class="icon coding-icon"></div>
+            <h3>Lập Trình</h3>
+            <p>
+              Lập trình C và phát triển website, trau dồi kỹ năng chuyên môn.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="icon streaming-icon"></div>
+            <h3>Xem Livestream</h3>
+            <p>Xem live stream của Độ Mixi vào buổi tối để giải trí.</p>
+          </div>
+          <div class="service-card">
+            <div class="icon gaming-icon"></div>
+            <h3>Chơi Game</h3>
+            <p>Chơi game để giải trí sau giờ học và giao lưu bạn bè.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="Kynang" class="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="tag">Kỹ Năng & Kinh Nghiệm</span>
+          <h2>Những Gì Tôi Có Thể Làm</h2>
+          <p>Các kỹ năng mà tôi đang học và phát triển.</p>
+        </div>
+
+        <div class="skills-content">
+          <div class="skills-category">
+            <h3><i class="fas fa-code"></i> Lập Trình & Công Nghệ</h3>
+            <ul>
+              <li>Ngôn ngữ lập trình: C, HTML, CSS, JavaScript (đang học)</li>
+              <li>Phát triển Web: Thiết kế giao diện bằng HTML & CSS</li>
+              <li>Làm việc với Dev C++ để lập trình C</li>
+              <li>Sử dụng GitHub để quản lý mã nguồn</li>
+            </ul>
+          </div>
+
+          <div class="skills-category">
+            <h3><i class="fas fa-paint-brush"></i> Thiết Kế & Đồ Họa</h3>
+            <ul>
+              <li>Thiết kế giao diện đơn giản bằng HTML & CSS</li>
+              <li>Biết cách sử dụng các công cụ chỉnh sửa ảnh cơ bản</li>
+            </ul>
+          </div>
+
+          <div class="skills-category">
+            <h3><i class="fas fa-comment"></i> Kỹ Năng Mềm</h3>
+            <ul>
+              <li>Giao tiếp tốt, có khả năng làm việc nhóm hiệu quả</li>
+              <li>Tự học và tìm tòi, chủ động trong công việc</li>
+              <li>
+                Quản lý thời gian tốt, cân bằng giữa học tập và sở thích cá nhân
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Goals Section -->
+    <section id="Muctieu" class="goals">
+      <div class="container">
+        <div class="section-header">
+          <span class="tag">Mục Tiêu & Định Hướng</span>
+          <h2>Hướng Đi Của Tôi</h2>
+          <p>Kế hoạch phát triển bản thân trong tương lai.</p>
+        </div>
+
+        <div class="goals-content">
+          <div class="goal-column">
+            <div class="goal-header">
+              <i class="fas fa-rocket"></i>
+              <h3>Mục Tiêu Ngắn Hạn</h3>
+            </div>
+            <ul class="goal-list">
+              <li>Thành thạo HTML, CSS, JavaScript để lập trình web</li>
+              <li>Viết được các chương trình C nâng cao</li>
+              <li>Tạo ra một website cá nhân hoàn chỉnh</li>
+            </ul>
+          </div>
+
+          <div class="goal-column">
+            <div class="goal-header">
+              <i class="fas fa-road"></i>
+              <h3>Mục Tiêu Dài Hạn</h3>
+            </div>
+            <ul class="goal-list">
+              <li>Học sâu hơn về Front-end và tiếp cận ReactJS, VueJS</li>
+              <li>Học thêm Back-end với Node.js hoặc PHP</li>
+              <li>Trở thành một Full-stack Developer</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="Lienhe" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="tag">Kết Nối</span>
+          <h2>Liên Hệ Với Tôi</h2>
+          <p>Tôi rất mong được kết nối và học hỏi từ mọi người!</p>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-form">
+            <h3>Gửi Tin Nhắn</h3>
+            <form>
+              <div class="form-group">
+                <label for="name">Họ và tên</label>
+                <input
+                  type="text"
+                  id="name"
+                  placeholder="Nhập họ và tên của bạn" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Nhập email của bạn" />
+              </div>
+              <div class="form-group">
+                <label for="message">Tin nhắn</label>
+                <textarea
+                  id="message"
+                  rows="5"
+                  placeholder="Nhập tin nhắn của bạn"></textarea>
+              </div>
+              <button type="submit" class="btn primary">Gửi Tin Nhắn</button>
+            </form>
+          </div>
+
+          <div class="contact-info">
+            <div class="info-item">
+              <h3>Mạng Xã Hội</h3>
+              <div class="social-media">
+                <a href="#" class="social-icon facebook"></a>
+                <a href="#" class="social-icon youtube"></a>
+                <a href="#" class="social-icon tiktok"></a>
+                <a href="#" class="social-icon email"></a>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <h3>Email</h3>
+              <p>nducduyfpoy.vn@gmail.com</p>
+            </div>
+
+            <div class="info-item">
+              <h3>Địa Chỉ</h3>
+              <p>Thái Bình, Việt Nam</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <a href="#">Ngô Đức Duy</a>
+            <p>
+              Cảm ơn bạn đã ghé thăm trang web của tôi! Tôi rất mong được học
+              hỏi thêm và kết nối với mọi người để cùng nhau phát triển!
+            </p>
+          </div>
+
+          <div class="footer-links">
+            <div class="link-group">
+              <h3>Điều Hướng</h3>
+              <ul>
+                <li><a href="#home">Trang Chủ</a></li>
+                <li><a href="#about">Giới Thiệu</a></li>
+                <li><a href="#skills">Kỹ Năng</a></li>
+                <li><a href="#goals">Mục Tiêu</a></li>
+                <li><a href="#contact">Liên Hệ</a></li>
+              </ul>
+            </div>
+
+            <div class="link-group">
+              <h3>Kết Nối</h3>
+              <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">YouTube</a></li>
+                <li><a href="#">TikTok</a></li>
+                <li><a href="#">Email</a></li>
+              </ul>
+            </div>
+
+            <div class="link-group">
+              <h3>Thông Tin</h3>
+              <ul>
+                <li><a href="#">Chính Sách Bảo Mật</a></li>
+                <li><a href="#">Điều Khoản Sử Dụng</a></li>
+                <li><a href="#">Cookies</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p>&copy; 2025 Ngô Đức Duy.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Thêm class "scrolled" cho header khi cuộn trang
+      window.addEventListener("scroll", function () {
+        const header = document.querySelector(".header");
+        if (window.scrollY > 50) {
+          header.classList.add("scrolled");
+        } else {
+          header.classList.remove("scrolled");
+        }
+      });
+
+      // Mượt mà khi click vào các liên kết trong menu
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+      });
+    </script>
+
+    <script>
+      var mobian = document.getElementById("mobian");
+      function closeden() {
+        mobian.style.display = "none ";
+      }
+      function upen() {
+        mobian.style.display = "block";
+      }
+    </script>
+  </body>
+</html>
